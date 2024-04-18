@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap');/*forma en la web*/
+/*@import url(font.css); forma local*/
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    color: rgb(3, 90, 3);/*red green and blue. */
+    font-size: 32px;
+    letter-spacing: -1px;
+    word-spacing: 0px;
+    text-decoration: /*underline*/ /*line-through*/underline overline blue wavy;
+    /*text-shadow:  eje x:ut /eje y /valor difuminado /color*/;
+    /*text-shadow:
+    200px 10px 3px rgb(177, 153, 153),
+    200px 50px 3px rgb(99, 76, 76),
+    0px 0px 10px rgb(78, 78, 78);*/
+    background-color: black;
+    /*width: 300px;
+    heigth: 100px;*/
+    text-align: center;/*es el centro del width*/
+    font-family: "Jacquard 24", system-ui;
+
+}
+p{
+    font-weight: 400;/* depende q fuente sea soporta tales tamaños */
+}
+.parrafo{
+    font-weight: 300;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 20px;
+}

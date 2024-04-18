@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap');
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+
+.caja{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    /*display: inline-block;*/
+    margin-top: 80px;
+    color: white;
+    padding:10px;
+
+    box-sizing: border-box;
+    margin-left: 200px;
+    display: inline-block;
+}
+
+h1{
+    background-color: green;
+}
+
+a{
+    background-color: red;
+    width: 400px;
+    /*display: inline-block;*//* corrije lo malo de inline y block. podes hasta anilearlos juntos y también podes modificar su tamaño */
+}
+
+span{
+    background-color: darkcyan;
+}
+
+/*.input{
+    width: 400px;
+    height: 200px;
+}*/
+
+
+
+header{
+    color:white;
+    /*background-color: blueviolet;*/
+}
+.logo{
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+}
+nav{
+    text-align: end;
+}
+.link{
+    display: inline-block;
+    background-color: transparent;
+    background-color: blue;
+    width: 100px;
+    text-align: center;
+    height: 50px;
+}
+
+.caja-resultado{
+    color: #555555;
+    background-color: #eeeeee;
+    width: 700px;
+    height: 70px;
+    /*padding-left:15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;*/
+    /*padding: 30px 15px 30px 15px;*/
+    padding: 20px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    /*border: 5px solid black ;*/
+    border-bottom: 5px solid black;
+    border-left: 5px dashed black;
+}
