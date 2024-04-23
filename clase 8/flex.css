@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.padre{
+    /* padding; 0px 50px; */
+    background-color: green;
+    height: 100vh; /* viewport height = 100% de su viewport(tamaño que ocupa dependiendo el tamaño de la pagina, dependiendo si esta en pantalla completa, minimizada, a la mitad, etc) se adapta segun la pantalla */
+    width: 100vw;/* veiwport width */
+    display: flex;
+    flex-direction: row /* viene por defecto */;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between; /* va de la mano con el padding. queda bastante bien. AJUSTA EN EL EJE X */
+    align-items: center;/* AJUSTA EN EL EJE Y */
+
+
+    /* CUANDO SE CAMBIA A COLUMNA, SE INTERCAMBIA EL ALIGN Y JUSTIFY. ALIG PASA A SER EJE X Y JUSTIFY A SER EJE Y */
+
+    
+    /*flex-direction: row-reverse;*/
+    /*row-gap: 100px;/* espacio entre los hijos */
+    /*column-gap: 50px;*/
+}
+
+.padre .hijo{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: black;
+    /*display: inline-block; = lo estaria tomando como texto si usamos esto. puedo comprobarlo si centramos el texto, esto se centra, entonces queda claro que lo toma como texto*/
+}
+.padre .especial{/* si saco al padre no lo toma por q no tiene la misma especificidad que el .padre .hijo entonces lo tengo que igualar o superar */
+    background-color: red;
+}
