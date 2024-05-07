@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.padre{
+    width: 100vw;
+    height: 2000px;
+    background-color: rgb(8, 56, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 200px;
+    position: relative;
+}
+.hijo{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 1px solid red;
+}
+.hijo:nth-child(1){
+    background-color: rgb(13, 13, 141);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/* RELATIVO */
+.hijo:nth-child(2){
+    background-color: rgb(48, 108, 221);
+    position: relative;
+    /* top: 200px;
+    bottom: 200px;  /* funciona como un margin. se prioriza top y left por q tienen prioridad. nos podemos mover hacia la derecha usando left en negativo
+    left: 100px;
+    z-index: 2;*/
+    /*top: 10px;
+    left: 200px;*/
+}
+
+/* FIXED  */
+.hijo:nth-child(3){
+    background-color: rgb(150, 20, 20);
+    position: fixed;
+    left: 200px;
+    top: 0px;
+}
+
+.hijo:nth-child(4){
+    position: sticky;
+    top: 10px;
+}
+
+
+/* BUSCADOR MERCADO LIBRE, REVISAR. POSICION ABSOLUTA*/
+
+/* .busador-contenedor{
+    position: relative;
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+.buscador-contenedor input{
+    width: 100%;
+}
+.buscador-contenedor .lupita{
+    width: 16px;
+    height: 16px;
+    background-color: red;
+    border-radius: 100%;
+    position: absolute;
+    right: 10px;
+} */

@@ -1,0 +1,56 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+/* UN REM EQUIVALE A EL FONT SIZE DEL HTML (16PIXELES) */
+
+/* EM EQUIVALE AL FONT SIZE DEL PADRE MAS CERCANO */
+
+*¨{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* nav{
+    display: none;/* desaparece los elementos */
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+header h2{
+    font-size: 2.5rem;
+}
+nav{
+    display: flex;
+    gap: 15px;
+}
+header button{
+    display: none;
+}
+
+
+
+
+/* @media screen and (min-width:830px){
+    nav{
+        display: flex;
+        gap: 15px;
+    }
+    header .button{
+        display: none;
+    }
+} */
+@media screen and (max-width:830px){
+    header button{
+        display: flex;
+    }
+    /* nav{
+        display: none;
+    } */
+    html{
+        font-size: 14px;
+    }
+    nav{
+        display: none;
+    }
+}
