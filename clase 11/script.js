@@ -154,17 +154,17 @@ NaN == undefined == NaN  (boolean false)
 1 + " '1' " string "1 '1' "
 
 
-5 + null
+5 + null = null false
 
-3 + 0
+3 + 0  = 3 number true
 
-4 - "8"
+4 - "8"  =NaN  
 
-null == NaN
+null == NaN  = NaN
 
-"pepe" + " "
+"pepe" + " " = string(pepe ) true
 
-NaN + " "
+NaN + " " = Nan  
 
-true === 1
+true === 1  true?
  */
